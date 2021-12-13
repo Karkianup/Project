@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+  background-color: silver;
+    overflow-y:hidden ;
+
+
+
+}
+
+.nav{
+  position:absolute;
+  background-color:grey;
+  width:100%;
+  }
+  .nav a{
+    position: relative;
+    color:white;
+    text-decoration: none;
+    font-size:25px;
+    padding:12px 14px;
+    left:75%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  .nav a:hover{
+    background-color: black;
+  }
+#image{
+  position:absolute;
+  top:13vh;
+  left:31%;
+  height:480px;
+  width:400px;
+}
+.head{
+  position: absolute;
+left:33%;
+  top:31vh;
+}
+
+.head h1{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 100px;
+
+
+
+}
+  
+ 

@@ -1,0 +1,86 @@
+  #registerform{
+    position:absolute;
+    top:9vh;
+    box-shadow: 0px 0px 10px 0px red;
+    padding:30px;
+    border-radius: 10px;
+    left:55%;
+  }
+  #registerformheader{
+    position: absolute;
+    top:22vh;
+    font-weight: bold;
+    color:purple;
+    font-size: 38px;
+    left:22%;
+
+  }
+           
+    *{
+        padding:0px;
+        margin:0px;
+    }
+
+    .nav{
+      position:absolute;
+      background-color:grey;
+      width:100%;
+      }
+      .nav a{
+        position: relative;
+        color:white;
+        text-decoration: none;
+        font-size:25px;
+        padding:12px 14px;
+        left:75%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+      }
+      .nav a:hover{
+        background-color:black;
+      }
+  
+  
+  
+    footer{
+      bottom:0;
+      position: absolute;
+      background-color:grey;
+      height:30px;
+      width:100%;
+      position: fixed;
+    }
+    footer h3{
+      position: absolute;
+      font-size:20px;
+      left:45%;
+      color:black;
+      position: fixed;
+    }
+  
+/* from Project.php */
+.tab{
+    position:absolute;
+    top:20vh;
+    left:20%;
+}
+
+/* from subject.php */
+#a{
+    position:absolute;
+    top:12vh;
+    padding-left:350px;
+    margin-left:20px;
+}
+/* from subject.php */
+#b{
+    position:relative;
+    top:2vh;
+    padding-left:900px;
+}
+
+#hya{
+    position: absolute;
+    top:90vh;
+    padding-left:40px;
+}

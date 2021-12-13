@@ -1,0 +1,220 @@
+
+.errorDisplay{
+  position:absolute;
+  top:12vh;
+  left:49%;
+  color:red;
+  font-family: verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*from login.php for login form*/
+#loginform{
+    position:absolute;
+    left:55%;
+    top:26vh;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px 0px red;
+  
+    }
+  
+
+    /*from login.php for header*/
+    #loginFormHeader{
+      position: absolute;
+      top:28vh;
+      left:19%;
+      font-family:sans-serif;
+      font-size: 34px;
+      color:#D90038;
+      
+    }
+    
+ 
+.sidebar{
+  position:absolute;
+  top:7.5vh;
+  width:165px;
+  height:100%;
+  background-color:grey;
+}
+.sidebar a{
+  display:block;
+  position: relative;
+  font-size: 20px;
+  padding:18px 0px 0px 12px;  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color:black;
+
+
+}
+.sidebar a:hover{
+  color: white;
+  transition: 0.6s;
+}
+#sidebarname{
+  width:100%;
+  height:8%;
+  background-color: indigo;
+  text-align: center;
+  color:white;
+  font-style: inherit;
+  font-weight: bold;
+}
+
+  
+    *{
+    padding:0px;
+    margin:0px;
+  }
+  
+  .nav{
+    position:absolute;
+    background-color:grey;
+    width:100%;
+    }
+    .nav a{
+      position: relative;
+      color:white;
+      text-decoration: none;
+      font-size:25px;
+      padding:12px 14px;
+      left:75%;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .nav a:hover{
+      background-color: black;
+
+    }
+
+
+
+  footer{
+    bottom:0;
+    position: absolute;
+    background-color:grey;
+    height:30px;
+    width:100%;
+    position: fixed;
+   
+  }
+  footer h3{
+    position: absolute;
+    font-size:20px;
+    left:45%;
+    color:black;
+    position: fixed;
+  }
+   
+  
+/* from Project.php */
+.tab{
+    position:absolute;
+    top:15vh;
+    left:20%;
+}
+
+/* from subject.php */
+#a{
+    position:absolute;
+    top:12vh;
+    padding-left:350px;
+    margin-left:20px;
+}
+/* from subject.php */
+#b{
+    position:relative;
+    top:2vh;
+    padding-left:900px;
+}
+
+#hya{
+    position: absolute;
+    top:90vh;
+    padding-left:40px;
+}
+
+/*from update.php*/
+.uptable{
+position:absolute;
+top:63px;
+left:35%;
+
+}
+
+
+
+/*from studentloginpage.php */
+#studentprofile{
+  position:absolute;
+  top:15vh;
+  left:35%;
+}
+
+
+/*from CheckStudentCode.php*/
+ #checkstudentcode{
+   position:absolute;
+   left:15%;
+   top:33vh;
+ }
+
+ /*CheckMarks.php */
+ #checkmarks{
+   position:absolute;
+   top:33vh;
+   left:37%;
+ }
+ #checkmarksheader{
+   position: absolute;
+   top:20vh;
+   font-family:monospace;
+   left:34%;
+   color:black;
+   border:outset;
+ 
+  }
+
+ /*from UploadMarksForm.php*/
+ #uploadmarksform{
+   position: absolute;
+   top:18vh;
+   left:37%;
+ }
+
+ #uploadmarksformheader{
+   position:absolute;
+   color:white;
+   background-color:maroon;
+   font-family:monospace;
+   top:10vh;
+   left:26%;
+ }
+
+
+ /*from EditStudentMarks.php */
+ #editMarksForm{
+   position: absolute;
+   top:20vh;
+   left:45%;
+ }
+#editStudentMarksheader{
+  position:absolute;
+  color:white;
+  background-color:#004FC1;
+  font-family:monospace;
+  top:11vh;
+  left:44%;
+}
+.error{
+ position:absolute;
+ top:18vh;
+  left:61%;
+  color:black;
+  font-family: monospace;
+  font-size:18px;
+}

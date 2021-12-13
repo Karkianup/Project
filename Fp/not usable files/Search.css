@@ -1,0 +1,63 @@
+.nav{
+    position:absolute;
+    background-color:#34568B;
+    width:100%;
+    position: fixed;
+    }
+    .nav a{
+      position: relative;
+      color:white;
+      text-decoration: none;
+      font-size:20px;
+      padding:12px 14px;
+      left:75%;
+      font-family: verdana;
+    }
+
+  footer{
+    bottom:0;
+    position: absolute;
+    background-color: #34568B;
+    height:30px;
+    width:100%;
+    position: fixed;
+  }
+  footer h3{
+    position: absolute;
+    font-size:20px;
+    left:45%;
+    color:white;
+    position: fixed;
+  }
+ 
+   #cont{
+     padding-top:60px;
+     padding-left:95px;
+   }
+   
+   
+   
+   #hya{
+        padding-top:40px;
+        
+    }
+    #head{
+        background-color:#065535;
+        text-align:center;
+        color:white;
+        padding:20px;
+        box-shadow: 0px 0px 15px 0px black;
+    }
+    #detail{
+        background-color:#fa8072;
+        padding:20px;
+        box-shadow: 0px 0px 15px 0px black;
+        color:White;
+        font-family: verdana;
+    }
+    #tab{
+        background-color:orange;
+        box-shadow: 0px 0px 15px 0px black;
+        color:White;
+
+    }
